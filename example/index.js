@@ -1,11 +1,3 @@
-# @fanmiles/nodejs-aws-secret-retriever
-Used for retrieving a secret from AWS Secrets Manager.
-After successful retrieve the manager caches the secret
-in memory for faster access.
-
-## Usage
-
-```javascript
 const AWS = require('aws-sdk');
 const SecretsRetriever = require('@fanmiles/nodejs-aws-secret-retriever');
 
@@ -23,4 +15,3 @@ secretsRetriever.retrieveSecret('your/secret/id')
   .catch((error) => {
     console.error(error);
   });
-```
