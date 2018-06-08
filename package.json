@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-aws-secret-retriever",
+  "name": "@fanmiles/nodejs-aws-secret-retriever",
   "version": "1.0.0",
   "description": "Used for retrieving a secret from AWS Secrets Manager.",
   "main": "dist/index.js",
