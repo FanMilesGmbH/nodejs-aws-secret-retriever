@@ -1,0 +1,14 @@
+example
+src
+node_modules
+test
+
+.idea
+.babelrc
+.editorconfig
+.eslintrc
+.gitignore
+.nvmrc
+webpack.config.js
+
+*.tgz
