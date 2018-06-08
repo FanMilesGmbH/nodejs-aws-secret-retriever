@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-aws-secret-retriever-example",
+  "version": "1.0.0",
+  "description": "Example for nodejs aws secret retriever.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@fanmiles/nodejs-aws-secret-retriever": "^1.0.0",
+    "aws-sdk": "^2.253.1"
+  }
+}
