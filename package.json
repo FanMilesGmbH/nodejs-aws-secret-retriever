@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-aws-secret-retriever",
+  "version": "1.0.0",
+  "description": "Used for retrieving a secret from AWS Secrets Manager.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FanMilesGmbH/nodejs-aws-secret-retriever.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FanMilesGmbH/nodejs-aws-secret-retriever/issues"
+  },
+  "homepage": "https://github.com/FanMilesGmbH/nodejs-aws-secret-retriever#readme"
+}
