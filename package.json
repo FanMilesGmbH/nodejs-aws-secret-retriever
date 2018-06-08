@@ -5,6 +5,7 @@
   "main": "dist/index.js",
   "scripts": {
     "test": "mocha --require @babel/register ./test",
+    "prebuild": "npm run test",
     "build": "webpack"
   },
   "repository": {
