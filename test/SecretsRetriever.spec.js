@@ -1,8 +1,8 @@
-import sinon from 'sinon';
-import chai from 'chai';
-import sinonChai from 'sinon-chai';
+const sinon = require('sinon');
+const chai = require('chai');
+const sinonChai = require('sinon-chai');
 
-import SecretsRetriever from '../src/SecretsRetriever';
+const SecretsRetriever = require('../dist');
 
 chai.use(sinonChai);
 const { expect } = chai;
